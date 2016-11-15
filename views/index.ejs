@@ -6,6 +6,42 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>
+      If there is something you care about, calling your representative is a
+      powerful way of making sure your voice is heard!
+    </p>
+    <p>
+      It might sound a little daunting, but we're here to walk you through it.
+      <strong>Just 3 simple steps.</strong>
+    </p>
+
+    <form action="/dosomething" method="POST">
+      <p>
+        First, what is it that you're concerned about?
+      </p>
+      <p>
+        <input type="text" name="issue" placeholder="I am concerned that..">
+      </p>
+      <p>
+        Second, is this a <strong>local</strong>, <strong>state</strong>, or <strong>national</strong> issue?
+      </p>
+      <p>
+        <!-- TODO: better name than "scope" -->
+        <select name="scope">
+          <option value="national">National</option>
+          <option value="state">state</option>
+          <option value="local">Local</option>
+        </select>
+      </p>
+      <p>
+        Next, what is your address? Street, City, State, Zip
+      </p>
+      <p>
+        <input type="text" name="address" placeholder="123 Main St, Cityville, AA 12345">
+      </p>
+      <p>
+        <button type="submit">Done!</button>
+      </p>
+    </form>
   </body>
 </html>
