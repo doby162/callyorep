@@ -38,10 +38,19 @@ divisions.
 All `offices` records have an `officalIndices` attribute to match officials to
 offices.
 
-We want to keep this thing dead simple, so the default offices will be..
+We want to keep this thing dead simple, so to start out this will only return
+the info for the House Representative for the provided address.
+
+But, in the future, it would be cool to ask if it's a "local, state, or
+national" issue they are concerned about. Then the default for those levels
+could be..
 
 * **City Council Rep** for **local**
 * **State Legislative Rep** for **state**
 * **House Representative** for **national**
+
+Unforuntately, the civic info API doesn't provide city council members.
+
+I'm rambling at this point.
 
 But it would be good to just normalize all this data and show them all of it.
