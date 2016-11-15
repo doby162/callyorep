@@ -6,6 +6,17 @@ tweetstorm](https://storify.com/editoremilye/i-worked-for-congress-for-six-years
 from [@editoremilye](https://twitter.com/editoremilye), I was inspired to try
 and make it an easier task to accomplish. That's what this project is about.
 
+## getting started
+
+To run this project locally, clone down the repo, `cd` into the diretory and..
+
+```
+$ npm i
+$ DEBUG=callyorep:server node bin/www
+```
+
+Then visit http://localhost:3000.
+
 ## civic info api!
 
 This is powered mostly by the [Google Civic Info
