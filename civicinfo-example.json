@@ -1,0 +1,826 @@
+{
+  "kind": "civicinfo#representativeInfoResponse",
+  "normalizedInput": {
+    "line1": "1463 North Salina Avenue",
+    "city": "Wichita",
+    "state": "KS",
+    "zip": "67203"
+  },
+  "divisions": {
+    "ocd-division/country:us/state:ks/cd:4": {
+      "name": "Kansas's 4th congressional district",
+      "officeIndices": [
+        0
+      ]
+    },
+    "ocd-division/country:us/state:ks/sldl:92": {
+      "name": "Kansas State House district 92",
+      "officeIndices": [
+        4
+      ]
+    },
+    "ocd-division/country:us/state:ks/place:wichita": {
+      "name": "Wichita city",
+      "officeIndices": [
+        8
+      ]
+    },
+    "ocd-division/country:us": {
+      "name": "United States",
+      "officeIndices": [
+        1,
+        2
+      ]
+    },
+    "ocd-division/country:us/state:ks/county:sedgwick/council_district:4": {
+      "name": "Sedgwick County KS Board of County Commissioners District 4",
+      "officeIndices": [
+        9
+      ]
+    },
+    "ocd-division/country:us/state:ks": {
+      "name": "Kansas",
+      "officeIndices": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "ocd-division/country:us/state:ks/district_court:18": {
+      "name": "KS State District Court - 18th District"
+    },
+    "ocd-division/country:us/state:ks/county:sedgwick": {
+      "name": "Sedgwick County",
+      "officeIndices": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "ocd-division/country:us/state:ks/sldu:25": {
+      "name": "Kansas State Senate district 25",
+      "officeIndices": [
+        7
+      ]
+    }
+  },
+  "offices": [
+    {
+      "name": "United States House of Representatives KS-04",
+      "divisionId": "ocd-division/country:us/state:ks/cd:4",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "legislatorLowerBody"
+      ],
+      "officialIndices": [
+        0
+      ]
+    },
+    {
+      "name": "President of the United States",
+      "divisionId": "ocd-division/country:us",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "headOfState",
+        "headOfGovernment"
+      ],
+      "officialIndices": [
+        1
+      ]
+    },
+    {
+      "name": "Vice-President of the United States",
+      "divisionId": "ocd-division/country:us",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "deputyHeadOfGovernment"
+      ],
+      "officialIndices": [
+        2
+      ]
+    },
+    {
+      "name": "United States Senate",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "legislatorUpperBody"
+      ],
+      "officialIndices": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "KS State House District 92",
+      "divisionId": "ocd-division/country:us/state:ks/sldl:92",
+      "levels": [
+        "administrativeArea1"
+      ],
+      "roles": [
+        "legislatorLowerBody"
+      ],
+      "officialIndices": [
+        5
+      ]
+    },
+    {
+      "name": "Governor",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "levels": [
+        "administrativeArea1"
+      ],
+      "roles": [
+        "headOfGovernment"
+      ],
+      "officialIndices": [
+        6
+      ]
+    },
+    {
+      "name": "Lieutenant Governor",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "levels": [
+        "administrativeArea1"
+      ],
+      "roles": [
+        "deputyHeadOfGovernment"
+      ],
+      "officialIndices": [
+        7
+      ]
+    },
+    {
+      "name": "KS State Senate District 25",
+      "divisionId": "ocd-division/country:us/state:ks/sldu:25",
+      "levels": [
+        "administrativeArea1"
+      ],
+      "roles": [
+        "legislatorUpperBody"
+      ],
+      "officialIndices": [
+        8
+      ]
+    },
+    {
+      "name": "Mayor",
+      "divisionId": "ocd-division/country:us/state:ks/place:wichita",
+      "officialIndices": [
+        9
+      ]
+    },
+    {
+      "name": "County Commission, District 4",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick/council_district:4",
+      "officialIndices": [
+        10
+      ]
+    },
+    {
+      "name": "State Treasurer",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "officialIndices": [
+        11
+      ]
+    },
+    {
+      "name": "Attorney General",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "officialIndices": [
+        12
+      ]
+    },
+    {
+      "name": "Secretary of State",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "officialIndices": [
+        13
+      ]
+    },
+    {
+      "name": "Insurance Commissioner",
+      "divisionId": "ocd-division/country:us/state:ks",
+      "officialIndices": [
+        14
+      ]
+    },
+    {
+      "name": "Sheriff",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick",
+      "officialIndices": [
+        15
+      ]
+    },
+    {
+      "name": "Treasurer",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick",
+      "officialIndices": [
+        16
+      ]
+    },
+    {
+      "name": "County Clerk",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick",
+      "officialIndices": [
+        17
+      ]
+    },
+    {
+      "name": "District Attorney",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick",
+      "officialIndices": [
+        18
+      ]
+    },
+    {
+      "name": "Register of Deeds",
+      "divisionId": "ocd-division/country:us/state:ks/county:sedgwick",
+      "officialIndices": [
+        19
+      ]
+    }
+  ],
+  "officials": [
+    {
+      "name": "Mike Pompeo",
+      "address": [
+        {
+          "line1": "107 cannon hob",
+          "city": "washington",
+          "state": "DC",
+          "zip": "20515"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(202) 225-6216"
+      ],
+      "urls": [
+        "http://pompeo.house.gov/"
+      ],
+      "photoUrl": "http://bioguide.congress.gov/bioguide/photo/P/P000602.jpg",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "CongressmanPompeo"
+        },
+        {
+          "type": "Twitter",
+          "id": "repmikepompeo"
+        },
+        {
+          "type": "YouTube",
+          "id": "congressmanpompeo"
+        }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "address": [
+        {
+          "line1": "The White House",
+          "line2": "1600 pennsylvania avenue nw",
+          "city": "washington",
+          "state": "DC",
+          "zip": "20500"
+        }
+      ],
+      "party": "Democratic",
+      "phones": [
+        "(202) 456-1111"
+      ],
+      "urls": [
+        "http://www.whitehouse.gov/"
+      ],
+      "photoUrl": "http://www.whitehouse.gov/sites/default/files/imagecache/admin_official_lowres/administration-official/ao_image/president_official_portrait_hires.jpg",
+      "channels": [
+        {
+          "type": "GooglePlus",
+          "id": "+whitehouse"
+        },
+        {
+          "type": "Facebook",
+          "id": "whitehouse"
+        },
+        {
+          "type": "Twitter",
+          "id": "whitehouse"
+        },
+        {
+          "type": "YouTube",
+          "id": "barackobama"
+        }
+      ]
+    },
+    {
+      "name": "Joseph R. Biden",
+      "address": [
+        {
+          "line1": "The White House",
+          "line2": "1600 pennsylvania avenue nw",
+          "city": "washington",
+          "state": "DC",
+          "zip": "20500"
+        }
+      ],
+      "party": "Democratic",
+      "phones": [
+        "(202) 456-1111"
+      ],
+      "urls": [
+        "http://www.whitehouse.gov/"
+      ],
+      "photoUrl": "http://www.whitehouse.gov/sites/default/files/imagecache/admin_official_lowres/administration-official/ao_image/vp_portrait.jpeg",
+      "channels": [
+        {
+          "type": "GooglePlus",
+          "id": "+whitehouse"
+        },
+        {
+          "type": "Facebook",
+          "id": "whitehouse"
+        },
+        {
+          "type": "Twitter",
+          "id": "whitehouse"
+        }
+      ]
+    },
+    {
+      "name": "Jerry Moran",
+      "address": [
+        {
+          "line1": "361A russell senate office building",
+          "city": "washington",
+          "state": "DC",
+          "zip": "20510"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(202) 224-6521"
+      ],
+      "urls": [
+        "http://moran.senate.gov/public/"
+      ],
+      "photoUrl": "http://moran.senate.gov/public/index.cfm/files/serve?File_id=cd666b47-46e3-4a48-bcf1-ea2890f99817",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "jerrymoran"
+        },
+        {
+          "type": "Twitter",
+          "id": "JerryMoran"
+        },
+        {
+          "type": "YouTube",
+          "id": "senatorjerrymoran"
+        }
+      ]
+    },
+    {
+      "name": "Pat Roberts",
+      "address": [
+        {
+          "line1": "109 hart senate office building",
+          "city": "washington",
+          "state": "DC",
+          "zip": "20510"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(202) 224-4774"
+      ],
+      "urls": [
+        "http://www.roberts.senate.gov/public/"
+      ],
+      "photoUrl": "http://roberts.senate.gov/public//index.cfm?a=Files.Serve&File_id=39f556dd-4694-4c82-a96b-702a23704d47",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "SenPatRoberts"
+        },
+        {
+          "type": "Twitter",
+          "id": "SenPatRoberts"
+        },
+        {
+          "type": "YouTube",
+          "id": "SenPatRoberts"
+        }
+      ]
+    },
+    {
+      "name": "John Carmichael",
+      "address": [
+        {
+          "line1": "300 SW 10TH AVE STE 451-S",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Democratic",
+      "phones": [
+        "(785) 296-7650"
+      ],
+      "urls": [
+        "http://www.kslegislature.org/li/b2015_16/members/rep_carmichael_john_1/"
+      ],
+      "photoUrl": "http://www.kslegislature.org/li/m/images/pics/rep_carmichael_john_1.jpg",
+      "emails": [
+        "john.carmichael@house.ks.gov"
+      ]
+    },
+    {
+      "name": "Sam Brownback",
+      "address": [
+        {
+          "line1": "Capitol",
+          "line2": "300 sw 10th ave.",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-3232"
+      ],
+      "urls": [
+        "http://www.governor.ks.gov/"
+      ],
+      "photoUrl": "https://governor.ks.gov/images/official-photos/2011/01/03/brownback250x375.png",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "govsambrownback"
+        },
+        {
+          "type": "Twitter",
+          "id": "govsambrownback"
+        },
+        {
+          "type": "YouTube",
+          "id": "govsambrownback"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Colyer",
+      "address": [
+        {
+          "line1": "State Capitol",
+          "line2": "2nd Floor",
+          "line3": "300 sw 10th ave.",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-2214"
+      ],
+      "urls": [
+        "https://governor.ks.gov/about-the-office/lt-govenor-jeff-colyer"
+      ],
+      "photoUrl": "https://governor.ks.gov/images/official-photos/2011/01/03/colyer250x375.png?sfvrsn=1"
+    },
+    {
+      "name": "Michael O'Donnell",
+      "address": [
+        {
+          "line1": "66612",
+          "line2": "300 sw 10th ave",
+          "city": "",
+          "state": "KS",
+          "zip": ""
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-7391"
+      ],
+      "urls": [
+        "http://www.kslegislature.org/li/b2015_16/members/sen_o_donnell_michael_1/"
+      ],
+      "photoUrl": "http://www.kslegislature.org/li/m/images/pics/sen_o_donnell_michael_1.jpg",
+      "emails": [
+        "Michael.ODonnell@senate.ks.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "MichaelODonnellForSenate"
+        },
+        {
+          "type": "Twitter",
+          "id": "michaelkansas"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Longwell",
+      "address": [
+        {
+          "line1": "455 N. Main",
+          "line2": "1st Floor",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67202"
+        }
+      ],
+      "phones": [
+        "(316) 268-4331"
+      ],
+      "urls": [
+        "http://www.wichita.gov/Government/Council/Pages/Mayor.aspx"
+      ],
+      "photoUrl": "http://www.wichita.gov/Slider/Mayor.jpg",
+      "emails": [
+        "JLongwell@wichita.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "cityofwichita"
+        },
+        {
+          "type": "Twitter",
+          "id": "cityofwichita"
+        }
+      ]
+    },
+    {
+      "name": "Richard Ranzau",
+      "address": [
+        {
+          "line1": "525 N. Main #320",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(316) 660-9300"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/commissioners/4th_district.asp"
+      ],
+      "emails": [
+        "rranzau@sedgwick.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "richard.ranzau"
+        },
+        {
+          "type": "Twitter",
+          "id": "sedgwickcounty"
+        }
+      ]
+    },
+    {
+      "name": "Ron Estes",
+      "address": [
+        {
+          "line1": "Kansas State Treasurer 900 SW Jackson",
+          "line2": "Suite 201",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-3171"
+      ],
+      "emails": [
+        "ron@treasurer.ks.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "130975650300043"
+        },
+        {
+          "type": "Twitter",
+          "id": "RonEstesKS"
+        }
+      ]
+    },
+    {
+      "name": "Derek Schmidt",
+      "address": [
+        {
+          "line1": "120 SW 10th Ave",
+          "line2": "2nd Floor",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-2215"
+      ],
+      "urls": [
+        "http://ag.ks.gov/"
+      ],
+      "channels": [
+        {
+          "type": "Twitter",
+          "id": "KSAGOffice"
+        }
+      ]
+    },
+    {
+      "name": "Kris W. Kobach",
+      "address": [
+        {
+          "line1": "Kansas Secretary of State Memorial Hall",
+          "line2": "1st Floor",
+          "line3": "120 sw 10th avenue",
+          "city": "topeka",
+          "state": "KS",
+          "zip": "66612"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(785) 296-4564"
+      ],
+      "urls": [
+        "http://www.kssos.org/"
+      ],
+      "emails": [
+        "kssos@sos.ks.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "Kansas-Secretary-of-State"
+        },
+        {
+          "type": "Twitter",
+          "id": "kansassos"
+        }
+      ]
+    },
+    {
+      "name": "Ken Selzer",
+      "party": "Republican",
+      "phones": [
+        "(785) 296-3071"
+      ],
+      "urls": [
+        "http://www.ksinsurance.org/"
+      ],
+      "emails": [
+        "commissioner@ksinsurance.org"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "KansasInsuranceDepartment"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Easter",
+      "address": [
+        {
+          "line1": "141 W Elm",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(316) 660-3900"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/sheriff/"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "SedgwickCountySheriff"
+        }
+      ]
+    },
+    {
+      "name": "Linda Kizzire",
+      "address": [
+        {
+          "line1": "525 N. Main",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(316) 660-9110"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/treasurer/"
+      ],
+      "emails": [
+        "lkizzire@sedgwick.gov"
+      ]
+    },
+    {
+      "name": "Kelly B. Arnold",
+      "address": [
+        {
+          "line1": "525 N Main",
+          "line2": "#211",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(316) 660-9222"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/countyclerk/"
+      ],
+      "emails": [
+        "sgclerk@sedgwick.gov"
+      ]
+    },
+    {
+      "name": "Marc Bennett",
+      "address": [
+        {
+          "line1": "535 N. Main",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Republican",
+      "phones": [
+        "(800) 432-6878"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/da/"
+      ],
+      "emails": [
+        "da@sedgwick.gov"
+      ],
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "SedgwickCountyDistrictAttorney"
+        }
+      ]
+    },
+    {
+      "name": "Tonya Buckingham",
+      "address": [
+        {
+          "line1": "525 N Main",
+          "line2": "#227",
+          "city": "wichita",
+          "state": "KS",
+          "zip": "67203"
+        }
+      ],
+      "party": "Unknown",
+      "phones": [
+        "(316) 660-9400"
+      ],
+      "urls": [
+        "http://www.sedgwickcounty.org/deeds/"
+      ],
+      "emails": [
+        "Tonya.Buckingham@sedgwick.gov"
+      ]
+    }
+  ]
+}
